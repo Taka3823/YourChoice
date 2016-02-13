@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{b34314d8-4c9f-4a7d-ae48-f2f5e3d783b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{983490c7-8486-4c78-9811-71ef005a4f66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tikuneLib">
+      <UniqueIdentifier>{d6e7300c-c7ec-42bf-9ec1-4fb3bab6e288}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tikuneLib\Header">
+      <UniqueIdentifier>{079a41ab-1cf6-4beb-aef8-3250800c0750}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tikuneLib\Cpp">
+      <UniqueIdentifier>{fe80faf1-4edd-4bcf-ab37-44e9e7038d1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="YourChoice">
+      <UniqueIdentifier>{aec28fb0-c6d5-4dc8-a21a-7d0c9f78fdd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="YourChoice\FileData">
+      <UniqueIdentifier>{b42198f0-ca78-43d3-a737-565b97e17acf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\lib\appEnv.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\audio.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\camera2D.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\defines.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\fileUtil.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\font.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\framework.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\gamePad.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\glExt.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\glfwWindow.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\glTexture.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\graph.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\matrix.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\os.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\os_osx.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\os_win.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\png.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\random.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\streaming.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\streamWav.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\texture.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\utils.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\vector.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\wav.hpp">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tikuneLib\ヘッダー\Common.h">
+      <Filter>tikuneLib\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tikuneLib\ヘッダー\GameMain.h">
+      <Filter>tikuneLib\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tikuneLib\ヘッダー\OneSecond.h">
+      <Filter>tikuneLib\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tikuneLib\ヘッダー\Result.h">
+      <Filter>tikuneLib\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tikuneLib\ヘッダー\SceneBase.h">
+      <Filter>tikuneLib\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tikuneLib\ヘッダー\SceneManager.h">
+      <Filter>tikuneLib\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tikuneLib\ヘッダー\Title.h">
+      <Filter>tikuneLib\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tikuneLib\ヘッダー\CApp.h">
+      <Filter>tikuneLib\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\YourChoice\SaveData.h">
+      <Filter>YourChoice\FileData</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\lib\appEnv.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\audio.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\camera2D.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\fileUtil.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\font.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\gamePad.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\glExt.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\glfwWindow.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\glTexture.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\graph.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\matrix.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\os_osx.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\os_win.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\png.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\random.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\streaming.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\streamWav.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\texture.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\utils.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\wav.cpp">
+      <Filter>Lib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\tikuneLib\Cpp\Common.cpp">
+      <Filter>tikuneLib\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tikuneLib\Cpp\GameMain.cpp">
+      <Filter>tikuneLib\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tikuneLib\Cpp\OneSecnd.cpp">
+      <Filter>tikuneLib\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tikuneLib\Cpp\Result.cpp">
+      <Filter>tikuneLib\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tikuneLib\Cpp\SceneManager.cpp">
+      <Filter>tikuneLib\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tikuneLib\Cpp\Title.cpp">
+      <Filter>tikuneLib\Cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="src\YourChoice\SaveData.cpp">
+      <Filter>YourChoice\FileData</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
